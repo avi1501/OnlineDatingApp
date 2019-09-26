@@ -1,0 +1,10 @@
+<h1>Thank you for contacting!</h1>
+{{#each messages}}
+<p>{{fullname}}</p>
+<p>{{email}}</p>
+<p>{{message}}</p>
+<p>{{date}}</p>
+{{else}}
+<p>No messages ...</p>
+{{/each}}
+<a href="/contact"><button class="btn btn success">Contact again</button></a>
